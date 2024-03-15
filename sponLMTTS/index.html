@@ -72,7 +72,7 @@
 <strong>NOTE:</strong> Each laughter category has a corresponding laughter token for input on the text token side 
 
 
-<h1 id="Audio samples for different models">Subjective Evaluation</h1>
+<h1 id="Audio samples for different models">Audio samples for different models</h1>
 <p>
   <li><strong>FastSpeech 2 :</strong> Avanilla FastSpeech 2 which is trained on spontaneous corpus, dose no explicitly model spontaneous behavior.</li>
   <li><strong>VALL-E :</strong> A neural codec language model VALL-E. We trained the model in two Mandarin corpus and used it as our <strong>baseline</strong> model.</li>
@@ -279,9 +279,37 @@
     </tr>
   </tbody>
 </table>
+<h1 id="case study">Controllable of spontaneous behaviors</h1>
+<p><strong>NOTE:</strong> text corresponding to the spontaneous behavior is bolded</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Target Chinese Text</th>
+      <th style="text-align: left">Spontaneous label type</th>
+      <th style="text-align: left">audio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>嗯</strong>，风景真美丽呀。</td>
+      <td style="text-align: left"><strong>赞同,Positive feedback</td>
+      <td style="text-align: left"><audio controls=""><source src="./wavs/CaseStudy/1_1.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>嗯</strong>，风景真美丽呀。</td>
+      <td style="text-align: left"><strong>撒娇,Coquetry</td>
+      <td style="text-align: left"><audio controls=""><source src="./wavs/CaseStudy/1_2.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>嗯</strong>，风景真美丽呀。</td>
+      <td style="text-align: left"><strong>填充停顿,Filled pause</td>
+      <td style="text-align: left"><audio controls=""><source src="./wavs/CaseStudy/1_3.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+    </tr>
+  </tbody>
+</table>
       </section>
 
-<h1 id="case study">Case Study</h1>
+
     </div>
 
     <!-- FOOTER  -->
